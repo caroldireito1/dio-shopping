@@ -18,6 +18,7 @@ export default function cart(state = INITIAL_STATE, action){
                     quantity: 1
                 }
                 state.Cart.push(item);
+
             } else {
                 let check = false;
                 state.Cart.map((item, key) => {

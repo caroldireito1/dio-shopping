@@ -71,8 +71,8 @@ const Contatos = () => {
                 </div>
             }
 
-            <Button onClick={sendMessage} className="mt-2" variant="contained" color="primary">
-                Sent
+            <Button onClick={sendMessage} type="button" class="btn btn-outline-primary"className="mt-2" variant="contained" color="primary">
+                Send
             </Button>
 
             {message.map((content) => {
